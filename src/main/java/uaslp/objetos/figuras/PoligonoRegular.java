@@ -1,7 +1,7 @@
 package uaslp.objetos.figuras;
 import java.lang.Math;
 
-public class PoligonoRegular
+public class PoligonoRegular implements Figura
 {
     private double lado;
     private int numeroDeLados;
@@ -32,5 +32,10 @@ public class PoligonoRegular
     public double getLado()
     {
         return lado;
+    }
+
+    public String getName()
+    {
+        return "Poligono Regular";
     }
 }
